@@ -1,0 +1,18 @@
+{
+  "name": "3d-shooter",
+  "version": "1.0.0",
+  "main": "main.js",
+"scripts": {
+  "dev": "vite"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "three": "^0.181.1"
+  },
+  "devDependencies": {
+    "vite": "^7.2.2"
+  }
+}

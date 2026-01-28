@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>3D Shooter Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Score & Timer -->
+  <div id="scoreboard">Score: 0</div>
+  <div id="timer">Time: 0s</div>
+
+  <!-- Pause/Resume Message -->
+  <div id="pauseMessage">PAUSED<br>Press O to Resume</div>
+
+  <!-- Instructions -->
+  <div id="instructions">
+    🎮 <b>Controls:</b><br>
+    🕹️ Move — W, A, S, D<br>
+    🎯 Shoot — Mouse Click<br>
+    ⏸️ Pause — P<br>
+    ▶️ Resume — O<br>
+    🔄 Restart — R
+  </div>
+
+  <!-- Game Over Screen -->
+  <div id="gameOverScreen">
+    <div id="gameOverText"></div>
+    <button id="playAgainButton">Play Again</button>
+  </div>
+
+  <!-- Buttons -->
+  <button id="startButton">Start Game</button>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
